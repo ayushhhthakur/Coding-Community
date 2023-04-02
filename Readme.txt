@@ -18,7 +18,7 @@ Languages used: Python, SQL, HTML, CSS
 
 #make changes in the app.py file
 
-#run the app.py file (//python3 app.py//)
+#run the app.py file (python3 app.py)
 
 ====================================================================================
 
