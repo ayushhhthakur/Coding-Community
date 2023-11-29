@@ -13,7 +13,6 @@ This platform is designed to provide a space where coding enthusiasts of all lev
 - **Collaborate:** Explore collaboration opportunities, seek advice, and work together on exciting coding ventures.
 - **Share Your Thoughts:** Post your thoughts, ideas, or showcase your latest work to the community.
 - **Explore:** Dedicated forums and channels for various programming languages, frameworks, and development tools.
-  - Discuss topics like JavaScript, Python, Java, React, Node.js, and more.
 - **Stay Updated:** Get the latest industry news, job opportunities, and upcoming events through our tailored feeds.
 
 
