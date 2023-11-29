@@ -37,4 +37,4 @@ We welcome contributions and suggestions to help improve this platform! Please r
 
 ## Support
 
-Have questions or need help? Please contact our support team at [support.codingcommunity.app](ayushthakur1412@gmail.com).
+Have questions or need help? Please contact our support team at [ayushthakur1412@gmail.com](ayushthakur1412@gmail.com).
