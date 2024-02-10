@@ -32,8 +32,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 // CORS Configuration
 app.use(cors({
-  origin: process.env.CORS_ORIGIN,
-    // credentials: true,
+  origin: 'server-coding-community.vercel.app'
 }));
 
 app.use("/assets", express.static(path.join(__dirname, 'public/assets')));
