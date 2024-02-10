@@ -30,10 +30,9 @@ app.use(morgan("common")); // corrected typo: "comman" to "common"
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
-// CORS Configuration
 app.use(cors({
-  origin: 'server-coding-community.vercel.app'
-}));
+    origin: ['http://server-coding-community.vercel.app', 'http://codingcommunity.vercel.app']
+  }));
 
 app.use("/assets", express.static(path.join(__dirname, 'public/assets')));
 
