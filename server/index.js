@@ -31,7 +31,9 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 app.use(cors({
-    origin: ['http://server-coding-community.vercel.app', 'http://codingcommunity.vercel.app']
+    origin: ['https://codingcommunity.vercel.app'], // Allow requests only from this origin
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these methods
+    allowedHeaders: ['Content-Type', 'Authorization'] // Allow these headers
   }));
 
 app.use("/assets", express.static(path.join(__dirname, 'public/assets')));
